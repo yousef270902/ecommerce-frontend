@@ -1,0 +1,85 @@
+<html>
+    <title>
+        Crowd Funding 
+    </title>
+    <link rel="stylesheet" href="register.css">
+    
+    <body>
+      
+              <h1> Login </h1>
+              <div class="imgcontainer">
+                <img src="login.png" alt="login image" style="width: 200px;">
+              </div>
+            <div class="container">  
+              <label for="uname">Username</b></label>
+              <input type="text" placeholder="Enter Username" name="uname" required>
+              <br>
+          
+              <label for="psw">Password </b></label>
+              <input type="password" placeholder="Enter Password" name="psw" required>
+              <span class="psw">Forgot Password ?</b> <a href="#">Click here</a></span>
+              <br>
+
+              <button type="submit">Login</button>
+              <label>
+                <input type="checkbox" checked="checked" name="remember"> Remember me
+                
+                <br>
+                <button type="button" class="signupbtn" onclick="Open()">Sign Up</button>
+               
+                <form action="register.html" id="register">
+                  <center> 
+                   <div class="register" >
+                       <br>
+                      <div>
+                       
+                       <input type="text"  placeholder="FName" id="FName"   required>
+                      </div>
+                      <br>
+                      <div>
+                       
+                       <input type="text"  placeholder="LName" id="LName"  required>
+                       </div>
+                       <br>
+                       <div>
+                     
+                       <input type="email"  placeholder="Email Address" id="email"   required>
+                       </div>
+                       <br>
+                       <div>
+                        
+                       <input type="text"  placeholder="password" id="password"   required>
+                       </div>
+                       <br>
+                       <div>
+                       <input type="password"  placeholder="confirm password" id="confirm password"   required>
+                       </div>
+                       <br>
+                       <div>
+                        <button onclick="password_validation()">submit</button>
+                        <a href="123.html">sign up</a> 
+                       </div>              
+                   </div>           
+                 </center>
+                 </form>
+       
+                <Script>
+                  function Open(){
+                    var x = document.getElementById("register");
+                    if (x.style.display === "none") 
+                    {
+                      x.style.display = "block";
+                    } 
+                    else 
+                    {
+                      x.style.display = "none";
+                    }
+                  }
+                </Script>
+
+            </label>
+            </div>
+        
+          </form>
+    </body>
+</html>

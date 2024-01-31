@@ -1,0 +1,96 @@
+<html>
+   
+<header>
+    <title>only-three</title>
+ 
+</header> 
+    
+              
+    <link rel="stylesheet" href="2.css">
+    <section>
+        <li><a href="#home"id="link"> home</a> </li>
+        <li><a href="#smartphone"id="link">Smart Phones</a> </li>
+        <li><a href="#laptops"id="link">Laptops</a> </li>
+        <li><a href="#wearables"id="link">Wearables</a> </li>
+        <li><span><a href="#"id="link" onclick="myfunction()">Contact Us</a></span></li>
+        <br>
+        <center>
+       <div  class="box-contact" id="contact"> 
+        <p>contact us:</p>
+        <p>phone: 010101010010</p>
+        <p>hotmail: xyz@gmail.com</p>
+        <p>follow us:</p>
+        <p>facebook: <a href="www.facebook.com">xyz</a></p>
+        <p>instgram: <a href="www.facebook.com">xyz</a></p>
+        <p>TikTok:  <a href="www.facebook.com">xyz</a></p>
+        
+    </div>
+        </center>
+    </section>
+    <section id="home"> 
+    <section id="smartphone">
+        <div class="content">smart phone</div>
+       <div class="card">
+       <a href="iphone.html" ><img src="phone1.jpg" class="round"id="p"></a>
+        <div class="text">iPhone</div>
+       </div> 
+       <div class="card">
+       <a href="oppo.html" ><img src="phone2.jpg" class="round"id="p"></a>
+        <div class="text">OPPO</div>
+       </div> 
+       <div class="card">
+       <a href="samsung.html"> <img src="phone3.jpg" class="round"id="p"></a>
+        <div class="text">Samsung</div>
+       </div> 
+    </section>
+    <br>
+    <br>
+    <section id="home"> 
+        <section id="laptops" class="card">
+            <div class="content">laptops</div>
+           <div class="card">
+           <a href="iphone.html">  <img src="laptop2.jpg" class="round" id="p"></a>
+            <div class="text">Apple</div>
+           </div> 
+           <div class="card">
+            <a href="oppo.html" ><img src="laptop3.jpg" class="round"id="p"></a>
+            <div class="text">OPPO</div>
+           </div> 
+           <div class="card">
+            <a href="samsung.html"> <img src="laptop1.jpg" class="round"id="p"></a>
+            <div class="text">Samsung</div>
+           </div> 
+        </section>
+        <br>
+    <br>
+    <section id="home"> 
+        <section id="wearables" class="card">
+            <div class="content">wearables</div>
+           <div class="card">
+            <a href="iphone.html#iphone"> <img src="wear1.jpg" class="round" id="p"></a>
+            <div class="text">Apple</div>
+           </div> 
+           <div class="card">
+            <a href="oppo.html" > <img src="wear2.jpg" class="round"id="p"></a>
+            <div class="text">OPPO</div>
+           </div> 
+           <div class="card">
+            <a href="samsung.html"> <img src="wear3.jpg" class="round"id="p"></a>
+            <div class="text">Samsung</div>
+           </div> 
+        </section>
+        <br>
+        <br>        
+    </section>
+    <script>
+       function myfunction() 
+       {
+        var x = document.getElementById("contact");
+        if (x.style.display === "none") {
+          x.style.display = "block";
+        } else {
+          x.style.display = "none";
+        }
+       }
+    </script>    
+</html>
